@@ -100,7 +100,6 @@ function mostrarPromedio(userMaterias, userOpc, acc){
                 }
             }
         }
-        console.log(userMaterias[i].NotaUno + " + " + userMaterias[i].NotaDos + " + " + userMaterias[i].NotaTres + " + " + userMaterias[i].NotaCuatro + " + " + userMaterias[i].NotaCinco + " / " + acm)
     }
     promedio = Math.round(promedio / acm)
     console.log(userOpc)
@@ -125,5 +124,4 @@ while(userOpc != "N"){
     if(userOpc != "N"){
         mostrarPromedio(userMaterias, userOpc, acc)
     }
-    
 }
